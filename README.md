@@ -2,7 +2,7 @@
 
 Criação de um programa com usando Servlet, HTML e CSS.
 
-- [ ]  Criação de entidades 
+- [x]  Criação de entidades 
 - [ ]  Links em listas não ordendas
 - [ ]  Criação de página de cadastro
 - [ ]  Criação de Servlets 
