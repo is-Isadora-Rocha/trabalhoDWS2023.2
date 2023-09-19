@@ -9,7 +9,7 @@ Trabalho em dupla para criação de um programa com seguimentos de regras usando
 - [ ]  Utilizando HttpServletResquest e Response
 - [x]  Java, Tomcat e Eclipse
 
-### Contribuidores
+### Dupla
 
 <table>
   <tr>
