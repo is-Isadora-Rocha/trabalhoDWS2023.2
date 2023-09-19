@@ -2,12 +2,15 @@
 
 Trabalho em dupla para criação de um programa com seguimentos de regras usando Java, Tomcat, Servlet, HTML e CSS.
 
-- [x]  Criação de entidades 
-- [ ]  Links em listas não ordendas
-- [ ]  Criação de página de cadastro
-- [ ]  Criação de Servlets 
-- [ ]  Utilizando HttpServletResquest e Response
-- [x]  Java, Tomcat e Eclipse
+- [x] Criar da entidade com seus atributos e respectivos getters e setters
+- [ ] Criar uma página inicial (index.html) que deve possuir:
+    * Três links organizados em  uma lista não ordenada;
+    * O primeiro link (apresentar) deve chamar a página apresentacao.html;
+    * O segundo link (cadastrar) deve chamar a página cadastro.html;
+    * O terceiro link (jogar) deve chamar a página jogo.html.
+
+- [ ]  Criar Servlets para as entidades
+- [ ]  Utilizar HttpServletResquest e Response
 
 ### Dupla
 
@@ -30,4 +33,3 @@ Trabalho em dupla para criação de um programa com seguimentos de regras usando
       </a>
     </td>
 </table>
-  
