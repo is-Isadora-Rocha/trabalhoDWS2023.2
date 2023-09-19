@@ -1,6 +1,6 @@
 # Desenvolvimento de Sistemas para Web 2023.2
 
-Criação de um programa com usando Servlet, HTML e CSS.
+Traalho em dupla para criação de um programa com seguimentos de regras usando Java, Tomcat, Servlet, HTML e CSS.
 
 - [x]  Criação de entidades 
 - [ ]  Links em listas não ordendas
