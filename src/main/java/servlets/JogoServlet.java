@@ -23,11 +23,7 @@ public class JogoServlet extends HttpServlet{
 		
 		
 		Integer[] parOuImpar = new Integer[5];
-		parOuImpar[0] = (num1 % 2 == 0) ? 0 : 1;
-		parOuImpar[1] = (num2 % 2 == 0) ? 0 : 1;
-		parOuImpar[2] = (num3 % 2 == 0) ? 0 : 1;
-		parOuImpar[3] = (num4 % 2 == 0) ? 0 : 1;
-		parOuImpar[4] = (num5 % 2 == 0) ? 0 : 1;
+		
 	
 		
 		PrintWriter writer = resp.getWriter();
@@ -36,10 +32,7 @@ public class JogoServlet extends HttpServlet{
 		writer.write("<meta charset=\\\"UTF-8\\\"></head>");
 		writer.write("<body>");
 		writer.write("<li>Número 1: " + num1 + "</li>");
-		writer.write("<li>Número 1: " + num2 + "</li>");
-		writer.write("<li>Número 1: " + num3 + "</li>");
-		writer.write("<li>Número 1: " + num4 + "</li>");
-		writer.write("<li>Número 1: " + num5 + "</li>");
+	
 		writer.write("<a href=\"index.html\">Página Principal</a>");
 		writer.write("</body>");
 		writer.write("</html>");
