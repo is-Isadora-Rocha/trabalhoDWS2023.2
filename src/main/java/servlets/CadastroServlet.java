@@ -27,11 +27,11 @@ public class CadastroServlet extends HttpServlet{
 		writer.write("<head><title>Carros cadastrados</title>");
 		writer.write("<meta charset=\\\"UTF-8\\\"></head>");
 		writer.write("<body>");
-		writer.write("<label>Cadastro realizado</label></br>");
+		writer.write("<label>Cadastro realizado!</label></br>");
 		writer.write("<label>Modelo: " + car.getModelo() + "</label></br>");
 		writer.write("<label>Marca: " + car.getMarca() + "</label></br>");
 		writer.write("<label>Ano: " + car.getAnoFabricacao() + "</label></br>");
-		writer.write("<a href=\"index.html\">Voltar</a>");
+		writer.write("<a href=\"index.html\">Página Principal</a>");
 		writer.write("</body>");
 		writer.write("</html>");
 	}
