@@ -5,18 +5,34 @@
 <title>Cadastro de Carros</title>
 </head>
 <body>
-	<form method="post" action="cadServlet">
-		
-		<h1>Cadastrar Carros</h1>
-		
-		<label>Modelo</label>
-		<input type="text" name="modeloC"></br>
-		<label>Marca</label>
-		<input type="text" name="marcaC"></br>
-		<label>Ano</label>
-		<input type="number" name="anoC"></br>
+	
+	<h1>Cadastros de Carros</h1>
+	<form action="cadServlet" method="post">
+
+		<table>
+			<tr>
+				<td><label>Modelo:</label></td>
+				<td><input type="text" name="modeloC"></td>
+			</tr>
+			<tr>
+				<td><label>Marca:</label></td>
+				<td><input type="text" name="marcaC"></td>
+			</tr>
+			<tr>
+				<td><label>Ano de Fabricação:</label></td>
+				<td><input type="number" name="anoC"></td>
+			</tr>
+		</table>
 		
 		<input type="submit" value="Cadastrar">
+		
 	</form>
+	
+	<style>
+		label {
+			margin-bottom: 10px;
+		}
+	</style>
+	
 </body>
 </html>
