@@ -6,11 +6,12 @@
 </head>
 <body>
 	
-	<h1>Bem vindo ao Jogo!</h1>
-	<form action="jogServlet" method="post"></form>
+	<form action="jogServlet" method="post">
 	
+	<h1>Bem vindo ao Jogo!</h1>
 	<p>Digite 5 números: </p>
 	
+	<div class="numeros-input">
 		<label>Número 1:</label>
 		<input type="number" name="numero1">
 		
@@ -25,16 +26,17 @@
 		
 		<label>Número 5:</label>
 		<input type="number" name="numero5"></br>
-	
-	<input type="submit" value="Jogar">
+		
+	</div>
+
+		<input type="submit" value="Jogar">
+
+	</form>
 	
 	<style>
-	    label {
+		input {
 	        margin-bottom: 5px;
-	        display: block;
-	    }
-	    input {
-	        margin-bottom: 10px;
+	        width: 50px;
 	    }
 	</style>
 	
