@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.titulos {
+	color: rgb(100, 132, 217);
+}
+
+.labels {
+	color: blue;
+	font-weight: bold;
+}

@@ -2,37 +2,38 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="style.css">
 <title>Cadastro de Carros</title>
 </head>
 <body>
-	
-	<h1>Cadastros de Carros</h1>
+
+	<h1 class="titulos">Cadastro de Carros</h1>
 	<form action="cadServlet" method="post">
 
 		<table>
 			<tr>
-				<td><label>Modelo:</label></td>
+				<td><label class="labels">Modelo:</label></td>
 				<td><input type="text" name="modeloC"></td>
 			</tr>
 			<tr>
-				<td><label>Marca:</label></td>
+				<td><label class="labels">Marca:</label></td>
 				<td><input type="text" name="marcaC"></td>
 			</tr>
 			<tr>
-				<td><label>Ano de Fabricação:</label></td>
+				<td><label class="labels">Ano de Fabricação:</label></td>
 				<td><input type="number" name="anoC"></td>
 			</tr>
 		</table>
-		
+
 		<input type="submit" value="Cadastrar">
-		
+
 	</form>
-	
+
 	<style>
 		label {
 			margin-bottom: 10px;
 		}
 	</style>
-	
+
 </body>
 </html>
