@@ -11,17 +11,17 @@ import javax.servlet.http.HttpServletResponse;
 
 import entities.Carros;
 
-@WebServlet(urlPatterns ="/cadServlet")
-public class CadastroServlet extends HttpServlet{
-	
+@WebServlet(urlPatterns = "/cadServlet")
+public class CadastroServlet extends HttpServlet {
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-	
+
 		Carros car = new Carros();
 		car.setModelo(req.getParameter("modeloC"));
 		car.setMarca(req.getParameter("marcaC"));
 		car.setAnoFabricacao(Integer.parseInt(req.getParameter("anoC")));
-		 
+
 		PrintWriter writer = resp.getWriter();
 		writer.write("<html>");
 		writer.write("<head><title>Carros cadastrados</title>");

@@ -11,15 +11,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns ="/jogServlet")
-public class JogoServlet extends HttpServlet{
-	
+@WebServlet(urlPatterns = "/jogServlet")
+public class JogoServlet extends HttpServlet {
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
+
 		ArrayList<Integer> pares = new ArrayList<>();
 		ArrayList<Integer> impares = new ArrayList<>();
-		
+
 		for (int i = 1; i <= 5; i++) {
 			int num = Integer.parseInt(req.getParameter("numero" + i));
 			if (num % 2 == 0) {
@@ -28,7 +28,7 @@ public class JogoServlet extends HttpServlet{
 				impares.add(num);
 			}
 		}
-		
+
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
 		out.println("<head><title>Jogo Ímpar-Par!</title>");
@@ -44,9 +44,8 @@ public class JogoServlet extends HttpServlet{
 			out.print("<p>" + num + "</p>");
 		}
 		out.println("<a href=\"index.html\">Página Principal</a>");
-        out.println("</body>");
-        out.println("</html>");
-	
+		out.println("</body>");
+		out.println("</html>");
+
 	}
 }
-
