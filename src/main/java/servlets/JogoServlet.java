@@ -33,7 +33,6 @@ public class JogoServlet extends HttpServlet {
 		out.println("<html>");
 		out.println("<head><title>Jogo Ímpar-Par!</title>");
 		out.println("<meta charset=\\\"UTF-8\\\"></head>");
-		out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">");
 		out.println("<body>");
 		out.println("<p>Aqui estão os numeros pares: </p>");
 		for (Integer num : pares) {

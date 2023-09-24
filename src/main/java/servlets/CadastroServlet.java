@@ -21,7 +21,7 @@ public class CadastroServlet extends HttpServlet {
 		car.setModelo(req.getParameter("modeloC"));
 		car.setMarca(req.getParameter("marcaC"));
 		car.setAnoFabricacao(Integer.parseInt(req.getParameter("anoC")));
-
+		
 		PrintWriter writer = resp.getWriter();
 		writer.write("<html>");
 		writer.write("<head><title>Carros cadastrados</title>");
